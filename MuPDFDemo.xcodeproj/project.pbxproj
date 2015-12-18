@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7048B45C1C241B60008475A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B45B1C241B60008475A1 /* main.m */; };
+		7048B45F1C241B60008475A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B45E1C241B60008475A1 /* AppDelegate.m */; };
+		7048B4671C241B60008475A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7048B4661C241B60008475A1 /* Assets.xcassets */; };
+		7048B46A1C241B60008475A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7048B4681C241B60008475A1 /* LaunchScreen.storyboard */; };
+		7048B5091C241FA2008475A1 /* MuAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4741C241FA2008475A1 /* MuAnnotation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B50A1C241FA2008475A1 /* MuAnnotSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4761C241FA2008475A1 /* MuAnnotSelectView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B50B1C241FA2008475A1 /* MuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4781C241FA2008475A1 /* MuAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B50C1C241FA2008475A1 /* MuChoiceFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B47A1C241FA2008475A1 /* MuChoiceFieldController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B50D1C241FA2008475A1 /* MuChoiceFieldController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7048B47B1C241FA2008475A1 /* MuChoiceFieldController.xib */; };
+		7048B50E1C241FA2008475A1 /* MuDocRef.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B47E1C241FA2008475A1 /* MuDocRef.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B50F1C241FA2008475A1 /* MuDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4801C241FA2008475A1 /* MuDocumentController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5101C241FA2008475A1 /* MuHitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4821C241FA2008475A1 /* MuHitView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5111C241FA2008475A1 /* MuInkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4841C241FA2008475A1 /* MuInkView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5121C241FA2008475A1 /* MuLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4861C241FA2008475A1 /* MuLibraryController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5131C241FA2008475A1 /* MuOutlineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4881C241FA2008475A1 /* MuOutlineController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5141C241FA2008475A1 /* MuPageViewNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B48B1C241FA2008475A1 /* MuPageViewNormal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5151C241FA2008475A1 /* MuPageViewReflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B48D1C241FA2008475A1 /* MuPageViewReflow.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5161C241FA2008475A1 /* MuPrintPageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B48F1C241FA2008475A1 /* MuPrintPageRenderer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5171C241FA2008475A1 /* MuTapResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4911C241FA2008475A1 /* MuTapResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5181C241FA2008475A1 /* MuTextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4931C241FA2008475A1 /* MuTextFieldController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B5191C241FA2008475A1 /* MuTextFieldController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7048B4941C241FA2008475A1 /* MuTextFieldController.xib */; };
+		7048B51A1C241FA2008475A1 /* MuTextSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4961C241FA2008475A1 /* MuTextSelectView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B51B1C241FA2008475A1 /* MuWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B4991C241FA2008475A1 /* MuWord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7048B51C1C241FA2008475A1 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048B49B1C241FA2008475A1 /* common.m */; };
+		70B80CB51C243485001BC61F /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CA61C243485001BC61F /* libfreetype.a */; };
+		70B80CB61C243485001BC61F /* libjbig2dec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CA71C243485001BC61F /* libjbig2dec.a */; };
+		70B80CB71C243485001BC61F /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CA81C243485001BC61F /* libjpeg.a */; };
+		70B80CB81C243485001BC61F /* libmujs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CA91C243485001BC61F /* libmujs.a */; };
+		70B80CB91C243485001BC61F /* libmupdf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CAA1C243485001BC61F /* libmupdf.a */; };
+		70B80CBA1C243485001BC61F /* libopenjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CAB1C243485001BC61F /* libopenjpeg.a */; };
+		70B80CBB1C243485001BC61F /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CAC1C243485001BC61F /* libz.a */; };
+		70B80CBC1C243485001BC61F /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CAE1C243485001BC61F /* libfreetype.a */; };
+		70B80CBD1C243485001BC61F /* libjbig2dec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CAF1C243485001BC61F /* libjbig2dec.a */; };
+		70B80CBE1C243485001BC61F /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CB01C243485001BC61F /* libjpeg.a */; };
+		70B80CBF1C243485001BC61F /* libmujs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CB11C243485001BC61F /* libmujs.a */; };
+		70B80CC01C243485001BC61F /* libmupdf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CB21C243485001BC61F /* libmupdf.a */; };
+		70B80CC11C243485001BC61F /* libopenjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CB31C243485001BC61F /* libopenjpeg.a */; };
+		70B80CC21C243485001BC61F /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70B80CB41C243485001BC61F /* libz.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7048B4571C241B60008475A1 /* MuPDFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuPDFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7048B45B1C241B60008475A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7048B45D1C241B60008475A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7048B45E1C241B60008475A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7048B4661C241B60008475A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7048B4691C241B60008475A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7048B46B1C241B60008475A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7048B4731C241FA2008475A1 /* MuAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuAnnotation.h; sourceTree = "<group>"; };
+		7048B4741C241FA2008475A1 /* MuAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuAnnotation.m; sourceTree = "<group>"; };
+		7048B4751C241FA2008475A1 /* MuAnnotSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuAnnotSelectView.h; sourceTree = "<group>"; };
+		7048B4761C241FA2008475A1 /* MuAnnotSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuAnnotSelectView.m; sourceTree = "<group>"; };
+		7048B4771C241FA2008475A1 /* MuAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuAppDelegate.h; sourceTree = "<group>"; };
+		7048B4781C241FA2008475A1 /* MuAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuAppDelegate.m; sourceTree = "<group>"; };
+		7048B4791C241FA2008475A1 /* MuChoiceFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuChoiceFieldController.h; sourceTree = "<group>"; };
+		7048B47A1C241FA2008475A1 /* MuChoiceFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuChoiceFieldController.m; sourceTree = "<group>"; };
+		7048B47B1C241FA2008475A1 /* MuChoiceFieldController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MuChoiceFieldController.xib; sourceTree = "<group>"; };
+		7048B47C1C241FA2008475A1 /* MuDialogCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuDialogCreator.h; sourceTree = "<group>"; };
+		7048B47D1C241FA2008475A1 /* MuDocRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuDocRef.h; sourceTree = "<group>"; };
+		7048B47E1C241FA2008475A1 /* MuDocRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuDocRef.m; sourceTree = "<group>"; };
+		7048B47F1C241FA2008475A1 /* MuDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuDocumentController.h; sourceTree = "<group>"; };
+		7048B4801C241FA2008475A1 /* MuDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuDocumentController.m; sourceTree = "<group>"; };
+		7048B4811C241FA2008475A1 /* MuHitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuHitView.h; sourceTree = "<group>"; };
+		7048B4821C241FA2008475A1 /* MuHitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuHitView.m; sourceTree = "<group>"; };
+		7048B4831C241FA2008475A1 /* MuInkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuInkView.h; sourceTree = "<group>"; };
+		7048B4841C241FA2008475A1 /* MuInkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuInkView.m; sourceTree = "<group>"; };
+		7048B4851C241FA2008475A1 /* MuLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuLibraryController.h; sourceTree = "<group>"; };
+		7048B4861C241FA2008475A1 /* MuLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuLibraryController.m; sourceTree = "<group>"; };
+		7048B4871C241FA2008475A1 /* MuOutlineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuOutlineController.h; sourceTree = "<group>"; };
+		7048B4881C241FA2008475A1 /* MuOutlineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuOutlineController.m; sourceTree = "<group>"; };
+		7048B4891C241FA2008475A1 /* MuPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuPageView.h; sourceTree = "<group>"; };
+		7048B48A1C241FA2008475A1 /* MuPageViewNormal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuPageViewNormal.h; sourceTree = "<group>"; };
+		7048B48B1C241FA2008475A1 /* MuPageViewNormal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuPageViewNormal.m; sourceTree = "<group>"; };
+		7048B48C1C241FA2008475A1 /* MuPageViewReflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuPageViewReflow.h; sourceTree = "<group>"; };
+		7048B48D1C241FA2008475A1 /* MuPageViewReflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuPageViewReflow.m; sourceTree = "<group>"; };
+		7048B48E1C241FA2008475A1 /* MuPrintPageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuPrintPageRenderer.h; sourceTree = "<group>"; };
+		7048B48F1C241FA2008475A1 /* MuPrintPageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuPrintPageRenderer.m; sourceTree = "<group>"; };
+		7048B4901C241FA2008475A1 /* MuTapResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuTapResult.h; sourceTree = "<group>"; };
+		7048B4911C241FA2008475A1 /* MuTapResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuTapResult.m; sourceTree = "<group>"; };
+		7048B4921C241FA2008475A1 /* MuTextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuTextFieldController.h; sourceTree = "<group>"; };
+		7048B4931C241FA2008475A1 /* MuTextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuTextFieldController.m; sourceTree = "<group>"; };
+		7048B4941C241FA2008475A1 /* MuTextFieldController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MuTextFieldController.xib; sourceTree = "<group>"; };
+		7048B4951C241FA2008475A1 /* MuTextSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuTextSelectView.h; sourceTree = "<group>"; };
+		7048B4961C241FA2008475A1 /* MuTextSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuTextSelectView.m; sourceTree = "<group>"; };
+		7048B4971C241FA2008475A1 /* MuUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuUpdater.h; sourceTree = "<group>"; };
+		7048B4981C241FA2008475A1 /* MuWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuWord.h; sourceTree = "<group>"; };
+		7048B4991C241FA2008475A1 /* MuWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MuWord.m; sourceTree = "<group>"; };
+		7048B49A1C241FA2008475A1 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		7048B49B1C241FA2008475A1 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
+		70B809E51C2424F9001BC61F /* annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotation.h; sourceTree = "<group>"; };
+		70B809E61C2424F9001BC61F /* bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitmap.h; sourceTree = "<group>"; };
+		70B809E71C2424F9001BC61F /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		70B809E81C2424F9001BC61F /* colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspace.h; sourceTree = "<group>"; };
+		70B809E91C2424F9001BC61F /* compressed-buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "compressed-buffer.h"; sourceTree = "<group>"; };
+		70B809EA1C2424F9001BC61F /* context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		70B809EB1C2424F9001BC61F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		70B809EC1C2424F9001BC61F /* device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = device.h; sourceTree = "<group>"; };
+		70B809ED1C2424F9001BC61F /* display-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "display-list.h"; sourceTree = "<group>"; };
+		70B809EE1C2424F9001BC61F /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		70B809EF1C2424F9001BC61F /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		70B809F01C2424F9001BC61F /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		70B809F11C2424F9001BC61F /* function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = function.h; sourceTree = "<group>"; };
+		70B809F21C2424F9001BC61F /* getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		70B809F31C2424F9001BC61F /* glyph-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "glyph-cache.h"; sourceTree = "<group>"; };
+		70B809F41C2424F9001BC61F /* glyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glyph.h; sourceTree = "<group>"; };
+		70B809F51C2424F9001BC61F /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		70B809F61C2424F9001BC61F /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		70B809F71C2424F9001BC61F /* link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = link.h; sourceTree = "<group>"; };
+		70B809F81C2424F9001BC61F /* math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math.h; sourceTree = "<group>"; };
+		70B809F91C2424F9001BC61F /* outline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = outline.h; sourceTree = "<group>"; };
+		70B809FA1C2424F9001BC61F /* output-pcl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-pcl.h"; sourceTree = "<group>"; };
+		70B809FB1C2424F9001BC61F /* output-png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-png.h"; sourceTree = "<group>"; };
+		70B809FC1C2424F9001BC61F /* output-pnm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-pnm.h"; sourceTree = "<group>"; };
+		70B809FD1C2424F9001BC61F /* output-pwg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-pwg.h"; sourceTree = "<group>"; };
+		70B809FE1C2424F9001BC61F /* output-svg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-svg.h"; sourceTree = "<group>"; };
+		70B809FF1C2424F9001BC61F /* output-tga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-tga.h"; sourceTree = "<group>"; };
+		70B80A001C2424F9001BC61F /* output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output.h; sourceTree = "<group>"; };
+		70B80A011C2424F9001BC61F /* path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = path.h; sourceTree = "<group>"; };
+		70B80A021C2424F9001BC61F /* pixmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixmap.h; sourceTree = "<group>"; };
+		70B80A031C2424F9001BC61F /* separation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = separation.h; sourceTree = "<group>"; };
+		70B80A041C2424F9001BC61F /* shade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shade.h; sourceTree = "<group>"; };
+		70B80A051C2424F9001BC61F /* store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = store.h; sourceTree = "<group>"; };
+		70B80A061C2424F9001BC61F /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		70B80A071C2424F9001BC61F /* string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string.h; sourceTree = "<group>"; };
+		70B80A081C2424F9001BC61F /* structured-text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "structured-text.h"; sourceTree = "<group>"; };
+		70B80A091C2424F9001BC61F /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		70B80A0A1C2424F9001BC61F /* text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		70B80A0B1C2424F9001BC61F /* transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transition.h; sourceTree = "<group>"; };
+		70B80A0C1C2424F9001BC61F /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		70B80A0D1C2424F9001BC61F /* ucdn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ucdn.h; sourceTree = "<group>"; };
+		70B80A0E1C2424F9001BC61F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		70B80A0F1C2424F9001BC61F /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		70B80A101C2424F9001BC61F /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		70B80A111C2424F9001BC61F /* write-document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "write-document.h"; sourceTree = "<group>"; };
+		70B80A121C2424F9001BC61F /* xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xml.h; sourceTree = "<group>"; };
+		70B80A131C2424F9001BC61F /* fitz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fitz.h; sourceTree = "<group>"; };
+		70B80A141C2424F9001BC61F /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html.h; sourceTree = "<group>"; };
+		70B80A151C2424F9001BC61F /* memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memento.h; sourceTree = "<group>"; };
+		70B80A171C2424F9001BC61F /* annot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annot.h; sourceTree = "<group>"; };
+		70B80A181C2424F9001BC61F /* appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = appearance.h; sourceTree = "<group>"; };
+		70B80A191C2424F9001BC61F /* clean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clean.h; sourceTree = "<group>"; };
+		70B80A1A1C2424F9001BC61F /* cmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmap.h; sourceTree = "<group>"; };
+		70B80A1B1C2424F9001BC61F /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		70B80A1C1C2424F9001BC61F /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		70B80A1D1C2424F9001BC61F /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		70B80A1E1C2424F9001BC61F /* field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		70B80A1F1C2424F9001BC61F /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		70B80A201C2424F9001BC61F /* interpret.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interpret.h; sourceTree = "<group>"; };
+		70B80A211C2424F9001BC61F /* javascript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = javascript.h; sourceTree = "<group>"; };
+		70B80A221C2424F9001BC61F /* name-table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "name-table.h"; sourceTree = "<group>"; };
+		70B80A231C2424F9001BC61F /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		70B80A241C2424F9001BC61F /* output-pdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "output-pdf.h"; sourceTree = "<group>"; };
+		70B80A251C2424F9001BC61F /* page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = page.h; sourceTree = "<group>"; };
+		70B80A261C2424F9001BC61F /* parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		70B80A271C2424F9001BC61F /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		70B80A281C2424F9001BC61F /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		70B80A291C2424F9001BC61F /* xref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xref.h; sourceTree = "<group>"; };
+		70B80A2A1C2424F9001BC61F /* pdf-tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pdf-tools.h"; sourceTree = "<group>"; };
+		70B80A2B1C2424F9001BC61F /* pdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdf.h; sourceTree = "<group>"; };
+		70B80A2C1C2424F9001BC61F /* xps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xps.h; sourceTree = "<group>"; };
+		70B80CA61C243485001BC61F /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
+		70B80CA71C243485001BC61F /* libjbig2dec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjbig2dec.a; sourceTree = "<group>"; };
+		70B80CA81C243485001BC61F /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		70B80CA91C243485001BC61F /* libmujs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmujs.a; sourceTree = "<group>"; };
+		70B80CAA1C243485001BC61F /* libmupdf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmupdf.a; sourceTree = "<group>"; };
+		70B80CAB1C243485001BC61F /* libopenjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenjpeg.a; sourceTree = "<group>"; };
+		70B80CAC1C243485001BC61F /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+		70B80CAE1C243485001BC61F /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfreetype.a; sourceTree = "<group>"; };
+		70B80CAF1C243485001BC61F /* libjbig2dec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjbig2dec.a; sourceTree = "<group>"; };
+		70B80CB01C243485001BC61F /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		70B80CB11C243485001BC61F /* libmujs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmujs.a; sourceTree = "<group>"; };
+		70B80CB21C243485001BC61F /* libmupdf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmupdf.a; sourceTree = "<group>"; };
+		70B80CB31C243485001BC61F /* libopenjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenjpeg.a; sourceTree = "<group>"; };
+		70B80CB41C243485001BC61F /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7048B4541C241B60008475A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B80CC01C243485001BC61F /* libmupdf.a in Frameworks */,
+				70B80CBD1C243485001BC61F /* libjbig2dec.a in Frameworks */,
+				70B80CB51C243485001BC61F /* libfreetype.a in Frameworks */,
+				70B80CB91C243485001BC61F /* libmupdf.a in Frameworks */,
+				70B80CBE1C243485001BC61F /* libjpeg.a in Frameworks */,
+				70B80CB61C243485001BC61F /* libjbig2dec.a in Frameworks */,
+				70B80CC11C243485001BC61F /* libopenjpeg.a in Frameworks */,
+				70B80CB81C243485001BC61F /* libmujs.a in Frameworks */,
+				70B80CB71C243485001BC61F /* libjpeg.a in Frameworks */,
+				70B80CBB1C243485001BC61F /* libz.a in Frameworks */,
+				70B80CBA1C243485001BC61F /* libopenjpeg.a in Frameworks */,
+				70B80CBC1C243485001BC61F /* libfreetype.a in Frameworks */,
+				70B80CC21C243485001BC61F /* libz.a in Frameworks */,
+				70B80CBF1C243485001BC61F /* libmujs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7048B44E1C241B60008475A1 = {
+			isa = PBXGroup;
+			children = (
+				7048B4591C241B60008475A1 /* MuPDFDemo */,
+				7048B4581C241B60008475A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7048B4581C241B60008475A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7048B4571C241B60008475A1 /* MuPDFDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7048B4591C241B60008475A1 /* MuPDFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7048B4711C241FA2008475A1 /* mupdf */,
+				7048B45D1C241B60008475A1 /* AppDelegate.h */,
+				7048B45E1C241B60008475A1 /* AppDelegate.m */,
+				7048B4661C241B60008475A1 /* Assets.xcassets */,
+				7048B4681C241B60008475A1 /* LaunchScreen.storyboard */,
+				7048B46B1C241B60008475A1 /* Info.plist */,
+				7048B45A1C241B60008475A1 /* Supporting Files */,
+			);
+			path = MuPDFDemo;
+			sourceTree = "<group>";
+		};
+		7048B45A1C241B60008475A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7048B45B1C241B60008475A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7048B4711C241FA2008475A1 /* mupdf */ = {
+			isa = PBXGroup;
+			children = (
+				70B80CA41C243485001BC61F /* lib */,
+				70B809E31C2424F9001BC61F /* mupdf */,
+				7048B4721C241FA2008475A1 /* Classes */,
+				7048B49A1C241FA2008475A1 /* common.h */,
+				7048B49B1C241FA2008475A1 /* common.m */,
+			);
+			path = mupdf;
+			sourceTree = "<group>";
+		};
+		7048B4721C241FA2008475A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7048B4731C241FA2008475A1 /* MuAnnotation.h */,
+				7048B4741C241FA2008475A1 /* MuAnnotation.m */,
+				7048B4751C241FA2008475A1 /* MuAnnotSelectView.h */,
+				7048B4761C241FA2008475A1 /* MuAnnotSelectView.m */,
+				7048B4771C241FA2008475A1 /* MuAppDelegate.h */,
+				7048B4781C241FA2008475A1 /* MuAppDelegate.m */,
+				7048B4791C241FA2008475A1 /* MuChoiceFieldController.h */,
+				7048B47A1C241FA2008475A1 /* MuChoiceFieldController.m */,
+				7048B47B1C241FA2008475A1 /* MuChoiceFieldController.xib */,
+				7048B47C1C241FA2008475A1 /* MuDialogCreator.h */,
+				7048B47D1C241FA2008475A1 /* MuDocRef.h */,
+				7048B47E1C241FA2008475A1 /* MuDocRef.m */,
+				7048B47F1C241FA2008475A1 /* MuDocumentController.h */,
+				7048B4801C241FA2008475A1 /* MuDocumentController.m */,
+				7048B4811C241FA2008475A1 /* MuHitView.h */,
+				7048B4821C241FA2008475A1 /* MuHitView.m */,
+				7048B4831C241FA2008475A1 /* MuInkView.h */,
+				7048B4841C241FA2008475A1 /* MuInkView.m */,
+				7048B4851C241FA2008475A1 /* MuLibraryController.h */,
+				7048B4861C241FA2008475A1 /* MuLibraryController.m */,
+				7048B4871C241FA2008475A1 /* MuOutlineController.h */,
+				7048B4881C241FA2008475A1 /* MuOutlineController.m */,
+				7048B4891C241FA2008475A1 /* MuPageView.h */,
+				7048B48A1C241FA2008475A1 /* MuPageViewNormal.h */,
+				7048B48B1C241FA2008475A1 /* MuPageViewNormal.m */,
+				7048B48C1C241FA2008475A1 /* MuPageViewReflow.h */,
+				7048B48D1C241FA2008475A1 /* MuPageViewReflow.m */,
+				7048B48E1C241FA2008475A1 /* MuPrintPageRenderer.h */,
+				7048B48F1C241FA2008475A1 /* MuPrintPageRenderer.m */,
+				7048B4901C241FA2008475A1 /* MuTapResult.h */,
+				7048B4911C241FA2008475A1 /* MuTapResult.m */,
+				7048B4921C241FA2008475A1 /* MuTextFieldController.h */,
+				7048B4931C241FA2008475A1 /* MuTextFieldController.m */,
+				7048B4941C241FA2008475A1 /* MuTextFieldController.xib */,
+				7048B4951C241FA2008475A1 /* MuTextSelectView.h */,
+				7048B4961C241FA2008475A1 /* MuTextSelectView.m */,
+				7048B4971C241FA2008475A1 /* MuUpdater.h */,
+				7048B4981C241FA2008475A1 /* MuWord.h */,
+				7048B4991C241FA2008475A1 /* MuWord.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		70B809E31C2424F9001BC61F /* mupdf */ = {
+			isa = PBXGroup;
+			children = (
+				70B809E41C2424F9001BC61F /* fitz */,
+				70B80A131C2424F9001BC61F /* fitz.h */,
+				70B80A141C2424F9001BC61F /* html.h */,
+				70B80A151C2424F9001BC61F /* memento.h */,
+				70B80A161C2424F9001BC61F /* pdf */,
+				70B80A2A1C2424F9001BC61F /* pdf-tools.h */,
+				70B80A2B1C2424F9001BC61F /* pdf.h */,
+				70B80A2C1C2424F9001BC61F /* xps.h */,
+			);
+			path = mupdf;
+			sourceTree = "<group>";
+		};
+		70B809E41C2424F9001BC61F /* fitz */ = {
+			isa = PBXGroup;
+			children = (
+				70B809E51C2424F9001BC61F /* annotation.h */,
+				70B809E61C2424F9001BC61F /* bitmap.h */,
+				70B809E71C2424F9001BC61F /* buffer.h */,
+				70B809E81C2424F9001BC61F /* colorspace.h */,
+				70B809E91C2424F9001BC61F /* compressed-buffer.h */,
+				70B809EA1C2424F9001BC61F /* context.h */,
+				70B809EB1C2424F9001BC61F /* crypt.h */,
+				70B809EC1C2424F9001BC61F /* device.h */,
+				70B809ED1C2424F9001BC61F /* display-list.h */,
+				70B809EE1C2424F9001BC61F /* document.h */,
+				70B809EF1C2424F9001BC61F /* filter.h */,
+				70B809F01C2424F9001BC61F /* font.h */,
+				70B809F11C2424F9001BC61F /* function.h */,
+				70B809F21C2424F9001BC61F /* getopt.h */,
+				70B809F31C2424F9001BC61F /* glyph-cache.h */,
+				70B809F41C2424F9001BC61F /* glyph.h */,
+				70B809F51C2424F9001BC61F /* hash.h */,
+				70B809F61C2424F9001BC61F /* image.h */,
+				70B809F71C2424F9001BC61F /* link.h */,
+				70B809F81C2424F9001BC61F /* math.h */,
+				70B809F91C2424F9001BC61F /* outline.h */,
+				70B809FA1C2424F9001BC61F /* output-pcl.h */,
+				70B809FB1C2424F9001BC61F /* output-png.h */,
+				70B809FC1C2424F9001BC61F /* output-pnm.h */,
+				70B809FD1C2424F9001BC61F /* output-pwg.h */,
+				70B809FE1C2424F9001BC61F /* output-svg.h */,
+				70B809FF1C2424F9001BC61F /* output-tga.h */,
+				70B80A001C2424F9001BC61F /* output.h */,
+				70B80A011C2424F9001BC61F /* path.h */,
+				70B80A021C2424F9001BC61F /* pixmap.h */,
+				70B80A031C2424F9001BC61F /* separation.h */,
+				70B80A041C2424F9001BC61F /* shade.h */,
+				70B80A051C2424F9001BC61F /* store.h */,
+				70B80A061C2424F9001BC61F /* stream.h */,
+				70B80A071C2424F9001BC61F /* string.h */,
+				70B80A081C2424F9001BC61F /* structured-text.h */,
+				70B80A091C2424F9001BC61F /* system.h */,
+				70B80A0A1C2424F9001BC61F /* text.h */,
+				70B80A0B1C2424F9001BC61F /* transition.h */,
+				70B80A0C1C2424F9001BC61F /* tree.h */,
+				70B80A0D1C2424F9001BC61F /* ucdn.h */,
+				70B80A0E1C2424F9001BC61F /* unzip.h */,
+				70B80A0F1C2424F9001BC61F /* util.h */,
+				70B80A101C2424F9001BC61F /* version.h */,
+				70B80A111C2424F9001BC61F /* write-document.h */,
+				70B80A121C2424F9001BC61F /* xml.h */,
+			);
+			path = fitz;
+			sourceTree = "<group>";
+		};
+		70B80A161C2424F9001BC61F /* pdf */ = {
+			isa = PBXGroup;
+			children = (
+				70B80A171C2424F9001BC61F /* annot.h */,
+				70B80A181C2424F9001BC61F /* appearance.h */,
+				70B80A191C2424F9001BC61F /* clean.h */,
+				70B80A1A1C2424F9001BC61F /* cmap.h */,
+				70B80A1B1C2424F9001BC61F /* crypt.h */,
+				70B80A1C1C2424F9001BC61F /* document.h */,
+				70B80A1D1C2424F9001BC61F /* event.h */,
+				70B80A1E1C2424F9001BC61F /* field.h */,
+				70B80A1F1C2424F9001BC61F /* font.h */,
+				70B80A201C2424F9001BC61F /* interpret.h */,
+				70B80A211C2424F9001BC61F /* javascript.h */,
+				70B80A221C2424F9001BC61F /* name-table.h */,
+				70B80A231C2424F9001BC61F /* object.h */,
+				70B80A241C2424F9001BC61F /* output-pdf.h */,
+				70B80A251C2424F9001BC61F /* page.h */,
+				70B80A261C2424F9001BC61F /* parse.h */,
+				70B80A271C2424F9001BC61F /* resource.h */,
+				70B80A281C2424F9001BC61F /* widget.h */,
+				70B80A291C2424F9001BC61F /* xref.h */,
+			);
+			path = pdf;
+			sourceTree = "<group>";
+		};
+		70B80CA41C243485001BC61F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				70B80CA51C243485001BC61F /* debug */,
+				70B80CAD1C243485001BC61F /* release */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		70B80CA51C243485001BC61F /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				70B80CA61C243485001BC61F /* libfreetype.a */,
+				70B80CA71C243485001BC61F /* libjbig2dec.a */,
+				70B80CA81C243485001BC61F /* libjpeg.a */,
+				70B80CA91C243485001BC61F /* libmujs.a */,
+				70B80CAA1C243485001BC61F /* libmupdf.a */,
+				70B80CAB1C243485001BC61F /* libopenjpeg.a */,
+				70B80CAC1C243485001BC61F /* libz.a */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		70B80CAD1C243485001BC61F /* release */ = {
+			isa = PBXGroup;
+			children = (
+				70B80CAE1C243485001BC61F /* libfreetype.a */,
+				70B80CAF1C243485001BC61F /* libjbig2dec.a */,
+				70B80CB01C243485001BC61F /* libjpeg.a */,
+				70B80CB11C243485001BC61F /* libmujs.a */,
+				70B80CB21C243485001BC61F /* libmupdf.a */,
+				70B80CB31C243485001BC61F /* libopenjpeg.a */,
+				70B80CB41C243485001BC61F /* libz.a */,
+			);
+			path = release;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7048B4561C241B60008475A1 /* MuPDFDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7048B46E1C241B60008475A1 /* Build configuration list for PBXNativeTarget "MuPDFDemo" */;
+			buildPhases = (
+				7048B4531C241B60008475A1 /* Sources */,
+				7048B4541C241B60008475A1 /* Frameworks */,
+				7048B4551C241B60008475A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuPDFDemo;
+			productName = MuPDFDemo;
+			productReference = 7048B4571C241B60008475A1 /* MuPDFDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7048B44F1C241B60008475A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "信通惠德";
+				TargetAttributes = {
+					7048B4561C241B60008475A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7048B4521C241B60008475A1 /* Build configuration list for PBXProject "MuPDFDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7048B44E1C241B60008475A1;
+			productRefGroup = 7048B4581C241B60008475A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7048B4561C241B60008475A1 /* MuPDFDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7048B4551C241B60008475A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7048B46A1C241B60008475A1 /* LaunchScreen.storyboard in Resources */,
+				7048B50D1C241FA2008475A1 /* MuChoiceFieldController.xib in Resources */,
+				7048B4671C241B60008475A1 /* Assets.xcassets in Resources */,
+				7048B5191C241FA2008475A1 /* MuTextFieldController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7048B4531C241B60008475A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7048B5141C241FA2008475A1 /* MuPageViewNormal.m in Sources */,
+				7048B51C1C241FA2008475A1 /* common.m in Sources */,
+				7048B50A1C241FA2008475A1 /* MuAnnotSelectView.m in Sources */,
+				7048B5171C241FA2008475A1 /* MuTapResult.m in Sources */,
+				7048B51A1C241FA2008475A1 /* MuTextSelectView.m in Sources */,
+				7048B51B1C241FA2008475A1 /* MuWord.m in Sources */,
+				7048B5161C241FA2008475A1 /* MuPrintPageRenderer.m in Sources */,
+				7048B5111C241FA2008475A1 /* MuInkView.m in Sources */,
+				7048B5101C241FA2008475A1 /* MuHitView.m in Sources */,
+				7048B50E1C241FA2008475A1 /* MuDocRef.m in Sources */,
+				7048B5131C241FA2008475A1 /* MuOutlineController.m in Sources */,
+				7048B45F1C241B60008475A1 /* AppDelegate.m in Sources */,
+				7048B50C1C241FA2008475A1 /* MuChoiceFieldController.m in Sources */,
+				7048B5091C241FA2008475A1 /* MuAnnotation.m in Sources */,
+				7048B50F1C241FA2008475A1 /* MuDocumentController.m in Sources */,
+				7048B50B1C241FA2008475A1 /* MuAppDelegate.m in Sources */,
+				7048B45C1C241B60008475A1 /* main.m in Sources */,
+				7048B5151C241FA2008475A1 /* MuPageViewReflow.m in Sources */,
+				7048B5121C241FA2008475A1 /* MuLibraryController.m in Sources */,
+				7048B5181C241FA2008475A1 /* MuTextFieldController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7048B4681C241B60008475A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7048B4691C241B60008475A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7048B46C1C241B60008475A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7048B46D1C241B60008475A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7048B46F1C241B60008475A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MuPDFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MuPDFDemo/mupdf/lib/debug";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xthd.MuPDFDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MuPDFDemo/mupdf/";
+			};
+			name = Debug;
+		};
+		7048B4701C241B60008475A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MuPDFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/MuPDFDemo/mupdf/lib/release";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xthd.MuPDFDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MuPDFDemo/mupdf/";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7048B4521C241B60008475A1 /* Build configuration list for PBXProject "MuPDFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7048B46C1C241B60008475A1 /* Debug */,
+				7048B46D1C241B60008475A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7048B46E1C241B60008475A1 /* Build configuration list for PBXNativeTarget "MuPDFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7048B46F1C241B60008475A1 /* Debug */,
+				7048B4701C241B60008475A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7048B44F1C241B60008475A1 /* Project object */;
+}
